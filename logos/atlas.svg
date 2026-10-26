@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="ATLAS - Estructuras tridimensionales">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17232b"/><stop offset="1" stop-color="#090e15"/></linearGradient>
+ <linearGradient id="glow" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#d97706"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect x="3" y="3" width="186" height="186" rx="36" fill="url(#bg)" stroke="#fbbf24" stroke-opacity="0.36" stroke-width="2"/>
+<g stroke="#627b8b" stroke-opacity=".16" stroke-width="1"> 
+ <path d="M32 24V168M64 24V168M96 24V168M128 24V168M160 24V168M24 32H168M24 64H168M24 96H168M24 128H168M24 160H168"/>
+</g>
+<circle cx="96" cy="96" r="55" fill="#fbbf24" fill-opacity=".075" filter="url(#shadow)"/>
+
+ <g fill="none" stroke="url(#glow)" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M45 75 96 46l51 29v66l-51 28-51-28z"/>
+  <path d="M45 75 96 103l51-28M96 103v66M45 141l51-38 51 38" stroke-width="4"/>
+  <path d="M45 75v66M96 46v57M147 75v66" opacity=".7"/>
+  <path d="M59 68v64M132 68v64M59 68l37 21 36-21" opacity=".35" stroke-width="2"/>
+  <circle cx="96" cy="103" r="6" fill="url(#glow)" stroke="none"/>
+ </g>
+<path d="M52 157h88" stroke="#fbbf24" stroke-width="3" opacity=".5" stroke-linecap="round"/>
+</svg>
